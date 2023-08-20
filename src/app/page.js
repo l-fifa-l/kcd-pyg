@@ -11,27 +11,11 @@ export default function Home() {
   const filename = 'badge.png';
   return (
     <main className="flex min-h-screen flex-col items-center justify-evenly p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-neutral-800 bg-zinc-800/30 from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:bg-zinc-800/30">
           <Image src="/logo.png" width={400} height={50} alt="logo of keras" />
         </p>
-        <div className="fixed bottom-0 left-0 flex h-32 w-full items-end justify-center bg-gradient-to-t from-black via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://gdg.community.dev/gdg-prayagraj/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/logo2.png"
-              alt="GDG Logo"
-              className=""
-              width={400}
-              height={50}
-              priority
-            />
-          </a>
-        </div>
+        <div className="fixed bottom-0 left-0 flex h-32 w-full items-end justify-center bg-gradient-to-t from-black via-black lg:static lg:h-auto lg:w-auto lg:bg-none"></div>
       </div>
 
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-to-br before:from-transparent before:to-blue-700 before:opacity-10 after:from-sky-900 after:via-[#0141ff] after:opacity-40 before:lg:h-[360px] z-[-1]">
